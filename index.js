@@ -1,15 +1,9 @@
-const reverseString = (str) => {
-    let result = "";
-    for (const letter of str) {
-        result = letter + result
-    }
-    return result
+function plus(a, b) {
+  return a ** b;
 }
 
 
-
-function plus (a, b) {
-    return a ** b
+function myFunc (a) {
+    return a + 1
 }
-module.exports = {reverseString, plus};
-
+module.exports = { plus, myFunc };
