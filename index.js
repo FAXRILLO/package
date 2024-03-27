@@ -3,7 +3,9 @@ function plus(a, b) {
 }
 
 
-function myFunc (a) {
-    return a + 1
+function myFunc (str) {
+    return str.toUpperCase()
 }
+
+
 module.exports = { plus, myFunc };
