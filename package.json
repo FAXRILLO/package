@@ -1,6 +1,6 @@
 {
-  "name": "my-first-public-package",
-  "version": "1.0.0",
+  "name": "my-first-public-package1",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {

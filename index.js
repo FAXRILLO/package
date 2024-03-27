@@ -6,4 +6,10 @@ const reverseString = (str) => {
     return result
 }
 
-module.exports = reverseString;
+
+
+function plus (a, b) {
+    return a ** b
+}
+module.exports = {reverseString, plus};
+
